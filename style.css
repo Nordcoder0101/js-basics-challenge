@@ -1,0 +1,102 @@
+.wrapper{
+  background-color: #333f7c;
+  padding-top: 1px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+  width: 1500px;
+}
+
+.header {
+  background-color: #d63030;
+  height: 90px;
+  border-radius: 10px; 
+  margin: 10px;
+}
+.head-text {
+  color: white;
+  padding: 20px;
+  font-size: 40px
+}
+
+.navbar {
+  border-radius: 20px;
+  background-color: #377c7c;
+  display: inline-block;
+  padding: 0px 20px;
+  margin-top: 12px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+.home-nav{
+  display: inline-block;
+  }
+
+.nav-links{
+  color: #46e2f4;
+  font-size: 18px;
+  text-decoration: underline;
+  list-style: none;
+  padding: 0px;
+  margin-top: 5px
+}
+
+ .filled-bullets::before{
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: 1px;
+}
+.unfilled-bullets{
+  margin-right: 0px;
+}
+.clear-bullets{
+  list-style: none; 
+  margin-left: -15px;
+}
+.unfilled-bullets::before{
+  content: "o";
+  list-style: circle;
+  color: #a0a0a0;
+  display: inline-block; 
+  width: 1em;
+  font-size: 14px;
+  
+}
+
+.javascript-basics{
+  display: inline-block;
+  width: 1205px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 19px;
+  margin-left: 20px;
+  margin-top: 10px
+}
+.cyan-color{
+  color: #46e2f4;
+  text-decoration: underline;
+}
+.make-purple{
+  color: rgb(149, 111, 211)
+}
+
+.footer{
+  background-color: rgb(100, 96, 96);
+  border-radius: 20px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.js-url {
+  font-size: 20px;
+  color: rgb(223, 208, 208);
+  margin: 10px;
+  
+}
